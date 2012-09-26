@@ -1,0 +1,20 @@
+{
+    "name": "misd/twig-markdowner",
+    "description": "Twig extension to turn Markdown formatted text into HTML",
+    "keywords": ["markdown", "html"],
+    "homepage": "https://github.com/misd-service-development/twig-markdowner",
+    "licence": "MIT",
+    "authors": [
+        {
+            "name": "Stuart Chapman",
+            "email": "stuart.chapman@admin.cam.ac.uk"
+        }
+    ],
+    "require": {
+        "twig/twig": "1.*",
+        "dflydev/markdown": "1.*"
+    },
+    "autoload": {
+        "psr-0": "lib/"
+    }
+}
