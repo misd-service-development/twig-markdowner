@@ -17,7 +17,7 @@ Installation
             // ...
             "require": {
                 // ...
-                "misd/twig-markdowner": "1.0.0"
+                "misd/twig-markdowner": "1.0.*"
             }
         }
 
@@ -37,4 +37,6 @@ Usage
 In a Twig template:
 
         {{ "My *Markdown* text"|markdown }}
-        {{ article|markdown }}
+or
+
+        {{ object.property|markdown }}
