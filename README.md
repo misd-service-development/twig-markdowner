@@ -10,6 +10,7 @@ Authors
 Installation
 ------------
 1. Add TwigMarkdowner to your dependencies
+
         // composer.json
 
         {
@@ -21,9 +22,11 @@ Installation
         }
 
 2. Use Composer to download and install TwigMarkdowner
+
         $ php composer.phar update misd/twig-markdowner
 
 3. Instantiate a `MarkdownParser` and add the extension to the Twig environment
+
         $parser = new \dflydev\markdown\MarkdownParser();
 
         /** @var $twig Twig_Environment */
@@ -32,5 +35,6 @@ Installation
 Usage
 -----
 In a Twig template:
+
         {{ "My *Markdown* text"|markdown }}
         {{ article|markdown }}
