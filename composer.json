@@ -3,7 +3,7 @@
     "description": "Twig extension to turn Markdown formatted text into HTML",
     "keywords": ["markdown", "html"],
     "homepage": "https://github.com/misd-service-development/twig-markdowner",
-    "licence": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Stuart Chapman",
