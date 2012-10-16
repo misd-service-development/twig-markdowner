@@ -40,3 +40,7 @@ In a Twig template:
 or
 
         {{ object.property|markdown }}
+
+Please note
+-----------
+This filter does *not* prevent the injection of arbitrary HTML and JavaScript; the output should be filtered (using [HTMLPurifier](http://htmlpurifier.org/), or equivalent) before being output in a template.
